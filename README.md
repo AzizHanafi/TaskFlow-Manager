@@ -88,4 +88,4 @@ taskflow/
 
 ## Lisensi
 
-Proyek ini dirilis untuk keperluan pembelajaran akademik. Lihat berkas [LICENSE](LICENSE) jika tersedia, atau sesuaikan dengan kebijakan kelas Anda.
+Proyek ini dirilis untuk keperluan pembelajaran akademik. <br>Lihat berkas [LICENSE](LICENSE) jika tersedia, atau sesuaikan dengan kebijakan kelas Anda.
