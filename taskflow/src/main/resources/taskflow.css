@@ -1,0 +1,422 @@
+/* ============================================================
+   TaskFlow — JavaFX theme
+   Mirrors TaskFlow_Design_System/colors_and_type.css
+   ============================================================ */
+
+.root {
+    -fx-font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #FAFAFA;
+    -fx-text-fill: #18181B;
+
+    /* Color tokens (re-usable) */
+    -tf-bg-base:        #FAFAFA;
+    -tf-bg-surface:     #FFFFFF;
+    -tf-bg-subtle:      #F4F4F5;
+    -tf-bg-active:      #E4E4E7;
+    -tf-border:         #E4E4E7;
+    -tf-border-strong:  #D4D4D8;
+    -tf-fg-primary:     #18181B;
+    -tf-fg-secondary:   #71717A;
+    -tf-fg-tertiary:    #A1A1AA;
+    -tf-fg-disabled:    #D4D4D8;
+    -tf-fg-inverse:     #FFFFFF;
+    -tf-accent:         #4ADE80;
+    -tf-accent-muted:   #DCFCE7;
+    -tf-accent-fg:      #16A34A;
+}
+
+/* ----- Layout containers ----- */
+
+.tf-app-root {
+    -fx-background-color: -tf-bg-base;
+}
+
+.tf-content {
+    -fx-background-color: -tf-bg-base;
+    -fx-padding: 24 32 24 32;
+}
+
+.tf-content-header {
+    -fx-padding: 0 0 16 0;
+}
+
+.tf-content-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -tf-fg-primary;
+}
+
+.tf-content-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: -tf-fg-secondary;
+}
+
+/* ----- Sidebar ----- */
+
+.tf-sidebar {
+    -fx-background-color: -tf-bg-base;
+    -fx-border-color: -tf-border;
+    -fx-border-width: 0 1 0 0;
+    -fx-pref-width: 220;
+    -fx-min-width: 220;
+}
+
+.tf-sidebar-header {
+    -fx-padding: 24 20 20 20;
+    -fx-border-color: -tf-border;
+    -fx-border-width: 0 0 1 0;
+    -fx-spacing: 8;
+    -fx-alignment: center-left;
+}
+
+.tf-sidebar-logo {
+    -fx-background-color: #18181B;
+    -fx-background-radius: 6;
+    -fx-min-width: 26; -fx-min-height: 26;
+    -fx-max-width: 26; -fx-max-height: 26;
+    -fx-alignment: center;
+}
+
+.tf-sidebar-logo .tf-logo-mark {
+    -fx-text-fill: -tf-accent;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.tf-sidebar-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-text-fill: -tf-fg-primary;
+}
+
+.tf-sidebar-section-label {
+    -fx-font-size: 10px;
+    -fx-font-weight: 600;
+    -fx-text-fill: -tf-fg-tertiary;
+    -fx-padding: 16 20 6 20;
+}
+
+.tf-sidebar-list {
+    -fx-padding: 0 12 0 12;
+    -fx-spacing: 2;
+}
+
+.tf-sidebar-item {
+    -fx-padding: 6 8 6 8;
+    -fx-background-radius: 6;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-spacing: 8;
+    -fx-alignment: center-left;
+}
+
+.tf-sidebar-item:hover {
+    -fx-background-color: -tf-bg-subtle;
+}
+
+.tf-sidebar-item.active {
+    -fx-background-color: -tf-bg-subtle;
+}
+
+.tf-sidebar-item-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: -tf-fg-secondary;
+}
+
+.tf-sidebar-item.active .tf-sidebar-item-label {
+    -fx-text-fill: -tf-fg-primary;
+    -fx-font-weight: 500;
+}
+
+.tf-sidebar-item-count {
+    -fx-font-size: 11px;
+    -fx-text-fill: -tf-fg-tertiary;
+}
+
+.tf-sidebar-cat-dot {
+    -fx-min-width: 8; -fx-min-height: 8;
+    -fx-max-width: 8; -fx-max-height: 8;
+    -fx-background-radius: 999;
+    -fx-opacity: 0.85;
+}
+
+.tf-sidebar-progress-wrap {
+    -fx-padding: 16 20 20 20;
+    -fx-border-color: -tf-border;
+    -fx-border-width: 1 0 0 0;
+    -fx-spacing: 6;
+}
+
+.tf-progress-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-text-fill: -tf-fg-primary;
+}
+
+.tf-progress-count {
+    -fx-font-size: 11px;
+    -fx-text-fill: -tf-fg-secondary;
+}
+
+.tf-progress-bar {
+    -fx-pref-height: 5;
+    -fx-min-height: 5;
+    -fx-max-height: 5;
+}
+.tf-progress-bar > .track {
+    -fx-background-color: -tf-bg-subtle;
+    -fx-background-radius: 999;
+    -fx-background-insets: 0;
+}
+.tf-progress-bar > .bar {
+    -fx-background-color: -tf-accent;
+    -fx-background-radius: 999;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+/* ----- Buttons ----- */
+
+.tf-btn-primary {
+    -fx-background-color: #18181B;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+    -fx-background-radius: 6;
+    -fx-padding: 7 14 7 14;
+    -fx-cursor: hand;
+}
+.tf-btn-primary:hover { -fx-background-color: #27272A; }
+.tf-btn-primary:disabled {
+    -fx-background-color: -tf-bg-active;
+    -fx-text-fill: -tf-fg-tertiary;
+    -fx-cursor: default;
+}
+
+.tf-btn-secondary {
+    -fx-background-color: -tf-bg-subtle;
+    -fx-text-fill: -tf-fg-secondary;
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+    -fx-background-radius: 6;
+    -fx-padding: 7 16 7 16;
+    -fx-cursor: hand;
+}
+.tf-btn-secondary:hover { -fx-background-color: -tf-bg-active; }
+
+.tf-icon-btn {
+    -fx-background-color: transparent;
+    -fx-background-radius: 6;
+    -fx-text-fill: -tf-fg-tertiary;
+    -fx-min-width: 28; -fx-min-height: 28;
+    -fx-max-width: 28; -fx-max-height: 28;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+}
+.tf-icon-btn:hover {
+    -fx-background-color: -tf-bg-subtle;
+    -fx-text-fill: -tf-fg-secondary;
+}
+.tf-icon-btn.danger:hover {
+    -fx-background-color: #FEE2E2;
+    -fx-text-fill: #F87171;
+}
+
+/* ----- Task card ----- */
+
+.tf-task-card {
+    -fx-background-color: -tf-bg-surface;
+    -fx-border-color: -tf-border;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 11 16 11 16;
+    -fx-spacing: 12;
+    -fx-alignment: center-left;
+}
+.tf-task-card:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0.0, 0, 2);
+}
+.tf-task-card.done {
+    -fx-opacity: 0.6;
+}
+
+.tf-task-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-text-fill: -tf-fg-primary;
+}
+.tf-task-card.done .tf-task-title {
+    -fx-text-fill: -tf-fg-tertiary;
+    -fx-strikethrough: true;
+}
+
+.tf-task-meta {
+    -fx-spacing: 7;
+    -fx-alignment: center-left;
+    -fx-padding: 4 0 0 0;
+}
+
+.tf-task-deadline {
+    -fx-font-size: 11px;
+    -fx-text-fill: -tf-fg-tertiary;
+}
+
+.tf-task-actions {
+    -fx-opacity: 0;
+    -fx-spacing: 2;
+}
+.tf-task-card:hover .tf-task-actions {
+    -fx-opacity: 1;
+}
+
+/* ----- Checkbox (custom) ----- */
+
+.tf-checkbox {
+    -fx-min-width: 18; -fx-min-height: 18;
+    -fx-max-width: 18; -fx-max-height: 18;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: -tf-border-strong;
+    -fx-border-width: 1.5;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-padding: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+.tf-checkbox.checked {
+    -fx-background-color: -tf-accent;
+    -fx-border-color: -tf-accent;
+}
+
+/* ----- Badge / pill ----- */
+
+.tf-badge {
+    -fx-font-size: 11px;
+    -fx-font-weight: 500;
+    -fx-padding: 1 8 1 8;
+    -fx-background-radius: 999;
+}
+.tf-badge.cat-kuliah  { -fx-background-color: #EFF6FF; -fx-text-fill: #2563EB; }
+.tf-badge.cat-kerja   { -fx-background-color: #F5F3FF; -fx-text-fill: #7C3AED; }
+.tf-badge.cat-pribadi { -fx-background-color: #FFF1F2; -fx-text-fill: #E11D48; }
+.tf-badge.cat-lainnya { -fx-background-color: #F4F4F5; -fx-text-fill: #71717A; }
+.tf-badge.done-badge  { -fx-background-color: -tf-accent-muted; -fx-text-fill: -tf-accent-fg; }
+
+/* ----- Priority dot ----- */
+
+.tf-priority-dot {
+    -fx-min-width: 6; -fx-min-height: 6;
+    -fx-max-width: 6; -fx-max-height: 6;
+    -fx-background-radius: 999;
+}
+.tf-priority-dot.high   { -fx-background-color: #F87171; }
+.tf-priority-dot.medium { -fx-background-color: #FBBF24; }
+.tf-priority-dot.low    { -fx-background-color: #A1A1AA; }
+
+/* ----- Empty state ----- */
+
+.tf-empty-state {
+    -fx-alignment: center;
+    -fx-spacing: 12;
+    -fx-padding: 64 24 64 24;
+}
+.tf-empty-state-glyph {
+    -fx-font-size: 36px;
+    -fx-text-fill: -tf-fg-disabled;
+}
+.tf-empty-state-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: 600;
+    -fx-text-fill: -tf-fg-secondary;
+}
+.tf-empty-state-sub {
+    -fx-font-size: 13px;
+    -fx-text-fill: -tf-fg-tertiary;
+}
+
+/* ----- ScrollPane ----- */
+
+.tf-scroll, .tf-scroll > .viewport {
+    -fx-background-color: -tf-bg-base;
+}
+.tf-scroll {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+/* ----- Modal ----- */
+
+.tf-modal-card {
+    -fx-background-color: -tf-bg-surface;
+    -fx-background-radius: 12;
+    -fx-padding: 24;
+    -fx-spacing: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.18), 24, 0.0, 0, 8);
+}
+
+.tf-modal-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: -tf-fg-primary;
+}
+
+.tf-field-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-text-fill: -tf-fg-secondary;
+    -fx-padding: 0 0 5 0;
+}
+
+.tf-text-field {
+    -fx-background-color: -tf-bg-surface;
+    -fx-border-color: -tf-border;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 14px;
+    -fx-text-fill: -tf-fg-primary;
+    -fx-prompt-text-fill: -tf-fg-tertiary;
+}
+.tf-text-field:focused {
+    -fx-border-color: -tf-fg-primary;
+}
+
+.tf-chip {
+    -fx-background-color: -tf-bg-subtle;
+    -fx-text-fill: -tf-fg-secondary;
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-background-radius: 999;
+    -fx-padding: 4 12 4 12;
+    -fx-border-color: transparent;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 999;
+    -fx-cursor: hand;
+}
+.tf-chip:hover { -fx-background-color: -tf-bg-active; }
+.tf-chip.cat-kuliah.active  { -fx-background-color: #EFF6FF; -fx-text-fill: #2563EB; -fx-border-color: rgba(37,99,235,0.27); }
+.tf-chip.cat-kerja.active   { -fx-background-color: #F5F3FF; -fx-text-fill: #7C3AED; -fx-border-color: rgba(124,58,237,0.27); }
+.tf-chip.cat-pribadi.active { -fx-background-color: #FFF1F2; -fx-text-fill: #E11D48; -fx-border-color: rgba(225,29,72,0.27); }
+.tf-chip.cat-lainnya.active { -fx-background-color: #F4F4F5; -fx-text-fill: #71717A; -fx-border-color: rgba(113,113,122,0.27); }
+.tf-chip.pri-high.active    { -fx-background-color: #FEE2E2; -fx-text-fill: #F87171; -fx-border-color: rgba(248,113,113,0.27); }
+.tf-chip.pri-medium.active  { -fx-background-color: #FEF3C7; -fx-text-fill: #FBBF24; -fx-border-color: rgba(251,191,36,0.27); }
+.tf-chip.pri-low.active     { -fx-background-color: #F4F4F5; -fx-text-fill: #71717A; -fx-border-color: rgba(161,161,170,0.27); }
+
+/* ----- Confirm dialog (uses default Alert + light tweaks) ----- */
+.dialog-pane {
+    -fx-background-color: -tf-bg-surface;
+    -fx-font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+.dialog-pane .header-panel {
+    -fx-background-color: -tf-bg-surface;
+}
+.dialog-pane .button-bar .button {
+    -fx-background-radius: 6;
+    -fx-font-size: 13px;
+}

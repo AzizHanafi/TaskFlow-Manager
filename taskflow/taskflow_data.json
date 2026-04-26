@@ -1,0 +1,81 @@
+[
+  {
+    "id": "2ae38052-c257-42db-bb73-cdfb9ee21f1d",
+    "title": "Kirim invoice klien bulan April",
+    "category": "KERJA",
+    "priority": "HIGH",
+    "deadline": "April 29",
+    "isCompleted": true,
+    "createdAt": "2026-04-26T23:58:41.135997900"
+  },
+  {
+    "id": "58951216-381b-44c0-b049-fad9299da999",
+    "title": "Update portofolio website",
+    "category": "KERJA",
+    "priority": "LOW",
+    "isCompleted": false,
+    "createdAt": "2026-04-26T23:58:53.444051800"
+  },
+  {
+    "id": "8fe79e9d-e011-441c-912b-907037727ca9",
+    "title": "Submit tugas kelompok OOP",
+    "category": "KULIAH",
+    "priority": "HIGH",
+    "deadline": "April 30",
+    "isCompleted": false,
+    "createdAt": "2026-04-26T23:59:49.361364800"
+  },
+  {
+    "id": "28fdf404-7d99-4939-8189-467db518c156",
+    "title": "Perpanjang STNK",
+    "category": "LAINNYA",
+    "priority": "MEDIUM",
+    "deadline": "Mei 26",
+    "isCompleted": true,
+    "createdAt": "2026-04-27T00:00:21.396411400"
+  },
+  {
+    "id": "7cc4fc5f-186b-4bbe-b6a9-34a1eb12a9ab",
+    "title": "Cek jadwal seminar",
+    "category": "LAINNYA",
+    "priority": "LOW",
+    "isCompleted": false,
+    "createdAt": "2026-04-27T00:00:32.942714"
+  },
+  {
+    "id": "25666032-350e-421f-8552-921748911ac6",
+    "title": "Meeting progress dengan mentor",
+    "category": "KERJA",
+    "priority": "MEDIUM",
+    "deadline": "Mei 17",
+    "isCompleted": false,
+    "createdAt": "2026-04-27T00:01:06.989083600"
+  },
+  {
+    "id": "6c385ba5-7623-40e3-9e6d-a1a9b6df32e1",
+    "title": "Kerjain LA Sistem Operasi",
+    "category": "KULIAH",
+    "priority": "MEDIUM",
+    "deadline": "Mei 8",
+    "isCompleted": false,
+    "createdAt": "2026-04-27T00:01:46.028200800"
+  },
+  {
+    "id": "60463edd-77ef-45f5-baaa-a2c7aa5c41d4",
+    "title": "Tugas statistika",
+    "category": "KULIAH",
+    "priority": "HIGH",
+    "deadline": "April 30",
+    "isCompleted": true,
+    "createdAt": "2026-04-27T00:02:08.457841200"
+  },
+  {
+    "id": "4b14346c-5a20-403f-8969-dc281ff9a896",
+    "title": "Bayar tagihan internet",
+    "category": "PRIBADI",
+    "priority": "MEDIUM",
+    "deadline": "Mei 1",
+    "isCompleted": false,
+    "createdAt": "2026-04-27T00:02:30.065146500"
+  }
+]
