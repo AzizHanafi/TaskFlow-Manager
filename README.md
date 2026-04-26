@@ -1,4 +1,4 @@
-# TaskFlow
+# TaskFlow (Re-Design)
 
 > Aplikasi To-Do List desktop berbasis Java yang minimal, fokus, dan ramah pengguna untuk mahasiswa serta profesional.
 
