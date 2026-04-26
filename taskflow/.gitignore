@@ -23,11 +23,11 @@
 hs_err_pid*
 replay_pid*
 
-# Design System (referensi desain, bukan source code)
-TaskFlow_Design_System/
-
 # Docs (dikelola terpisah di GitHub Wiki)
-docs/
+docs/wiki/
+
+# Design
+TaskFlow_Design_System/
 
 # Maven build output
 target/
