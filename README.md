@@ -4,7 +4,7 @@
 
 TaskFlow adalah aplikasi manajemen tugas desktop yang dibangun dengan **Java + JavaFX** dan mengikuti pola arsitektur **MVC**. Aplikasi ini memungkinkan pengguna mencatat tugas, memberi kategori (Kuliah, Kerja, Pribadi, Lainnya), menetapkan prioritas (High, Medium, Low), serta memantau progres penyelesaian. Seluruh data disimpan secara otomatis ke berkas `taskflow_data.json` lokal melalui pustaka **Gson**, sehingga data tetap aman antar sesi tanpa memerlukan basis data eksternal.
 
-![Screenshot](docs/assets/screenshot.png)
+![Screenshot](taskflow/docs/assets/screenshot.png)
 
 ---
 
