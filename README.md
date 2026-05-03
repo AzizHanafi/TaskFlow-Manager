@@ -2,6 +2,11 @@
 
 > Aplikasi To-Do List desktop berbasis Java yang minimal, fokus, dan ramah pengguna untuk mahasiswa serta profesional.
 
+[![Built with IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)](https://www.jetbrains.com/idea/)
+[![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://adoptium.net)
+[![JavaFX](https://img.shields.io/badge/JavaFX-21.0.2-5382A1?style=for-the-badge&logo=java&logoColor=white)](https://openjfx.io)
+[![Maven](https://img.shields.io/badge/Maven-3.9.x-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org)
+
 TaskFlow adalah aplikasi manajemen tugas desktop yang dibangun dengan **Java + JavaFX** dan mengikuti pola arsitektur **MVC**. Aplikasi ini memungkinkan pengguna mencatat tugas, memberi kategori (Kuliah, Kerja, Pribadi, Lainnya), menetapkan prioritas (High, Medium, Low), serta memantau progres penyelesaian. Seluruh data disimpan secara otomatis ke berkas [`taskflow_data.json`](taskflow/taskflow_data.json) lokal melalui pustaka **Gson**, sehingga data tetap aman antar sesi tanpa memerlukan basis data eksternal.
 
 ![Screenshot](taskflow/docs/assets/screenshot.png)
@@ -88,4 +93,4 @@ taskflow/
 
 ## Lisensi
 
-Proyek ini dirilis untuk keperluan pembelajaran akademik. <br>Lihat berkas [LICENSE](LICENSE) jika tersedia, atau sesuaikan dengan kebijakan kelas Anda.
+Proyek ini dirilis untuk keperluan pembelajaran akademik. <br>Lihat berkas [LICENSE](LICENSE) jika tersedia.
